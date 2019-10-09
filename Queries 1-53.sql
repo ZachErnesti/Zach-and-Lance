@@ -1,4 +1,8 @@
-
+/* *** SQL-Query-CH03-48 *** */ 
+SELECT FirstName, LastName, ProjectID, HoursWorked 
+FROM EMPLOYEE JOIN ASSIGNMENT 
+ON EMPLOYEE.EmployeeNumber = ASSIGNMENT.EmployeeNumber 
+ORDER BY EMPLOYEE.EmployeeNumber, ProjectID;
 
 /* *** SQL-Query-CH03-49 *** */ 
 SELECT FirstName, LastName, SUM(HoursWorked) AS TotalHoursWorked 
