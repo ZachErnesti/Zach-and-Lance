@@ -1,5 +1,8 @@
 
-
+/* *** SQL-Query-CH03-40 *** */ 
+SELECT DISTINCT EmployeeNumber 
+FROM ASSIGNMENT 
+WHERE HoursWorked > 50;
 
 /* *** SQL-Query-CH03-41 *** */ 
 SELECT FirstName, LastName 
