@@ -1,6 +1,9 @@
 
 
-
+/* *** SQL-Query-CH03-35 *** */ 
+SELECT ProjectID, ProjectName, MaxHours, 
+(24.50 * MaxHours) AS MaxProjectCost 
+FROM PROJECT;
 
 /* *** SQL-Query-CH03-36 *** */ 
 SELECT Department, Count(*) AS NumberOfEmployees 
