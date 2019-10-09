@@ -1,4 +1,7 @@
-
+/* *** SQL-Query-CH03-34 *** */ 
+SELECT *
+FROM PROJECT 
+WHERE MaxHours > AVG(MaxHours);
 
 /* *** SQL-Query-CH03-35 *** */ 
 SELECT ProjectID, ProjectName, MaxHours, 
