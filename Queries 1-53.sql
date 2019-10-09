@@ -1,7 +1,12 @@
 
 
 
-
+/* *** SQL-Query-CH03-38 *** */ 
+SELECT Department, Count(*) AS NumberOfEmployees 
+FROM EMPLOYEE 
+WHERE EmployeeNumber <= 10 
+GROUP BY Department 
+HAVING COUNT(*) > 1;
 
 /* *** SQL-Query-CH03-39 *** */ 
 SELECT FirstName, LastName 
