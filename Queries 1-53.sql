@@ -2,7 +2,11 @@
 
 
 
-
+/* *** SQL-Query-CH03-50 *** */ 
+SELECT FirstName, LastName, ProjectID, HoursWorked 
+FROM EMPLOYEE AS E JOIN ASSIGNMENT AS A ON E.EmployeeNumber = A.EmployeeNumber 
+WHERE HoursWorked > 50 
+ORDER BY LastName, FirstName, ProjectID;
 
 /* *** SQL-Query-CH03-51 *** */ 
 SELECT ProjectName, FirstName, LastName, HoursWorked 
