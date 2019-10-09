@@ -1,4 +1,8 @@
 
+/* *** SQL-Query-CH03-45 *** */ 
+SELECT FirstName, LastName, ProjectID, HoursWorked 
+FROM EMPLOYEE, ASSIGNMENT;
+
 /* *** SQL-Query-CH03-46 *** */ 
 SELECT FirstName, LastName, ProjectID, HoursWorked 
 FROM EMPLOYEE, ASSIGNMENT 
