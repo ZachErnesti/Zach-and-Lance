@@ -1,3 +1,8 @@
+
+/* *** SQL-Query-CH03-33 *** */ 
+SELECT ProjectName, COUNT(*) 
+FROM PROJECT;
+
 /* *** SQL-Query-CH03-34 *** */ 
 SELECT *
 FROM PROJECT 
