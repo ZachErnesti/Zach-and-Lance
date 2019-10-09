@@ -1,4 +1,12 @@
 
+
+
+
+/* *** SQL-Query-CH03-36 *** */ 
+SELECT Department, Count(*) AS NumberOfEmployees 
+FROM EMPLOYEE 
+GROUP BY Department;
+
 /* *** SQL-Query-CH03-37 *** */ 
 SELECT Department, Count(*) AS NumberOfEmployees 
 FROM EMPLOYEE 
