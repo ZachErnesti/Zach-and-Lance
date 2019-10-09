@@ -1,3 +1,12 @@
+
+
+
+/* *** SQL-Query-CH03-47 *** */ 
+SELECT FirstName, LastName, ProjectID, HoursWorked 
+FROM EMPLOYEE, ASSIGNMENT 
+WHERE EMPLOYEE.EmployeeNumber = ASSIGNMENT. EmployeeNumber 
+ORDER BY EMPLOYEE.EmployeeNumber, ProjectID;
+
 /* *** SQL-Query-CH03-48 *** */ 
 SELECT FirstName, LastName, ProjectID, HoursWorked 
 FROM EMPLOYEE JOIN ASSIGNMENT 
