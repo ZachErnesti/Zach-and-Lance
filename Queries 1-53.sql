@@ -1,4 +1,11 @@
-
+/* *** SQL-Query-CH03-43 *** */ 
+SELECT DISTINCT EmployeeNumber 
+FROM ASSIGNMENT 
+WHERE HoursWorked > 40 
+AND ProjectID IN 
+(SELECT ProjectID 
+FROM PROJECT 
+WHERE Department = 'Accounting');
 
 /* *** SQL-Query-CH03-44 *** */ 
 SELECT FirstName, LastName 
