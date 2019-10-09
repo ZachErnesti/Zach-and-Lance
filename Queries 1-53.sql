@@ -1,3 +1,13 @@
+
+
+
+
+
+/* *** SQL-Query-CH03-42 *** */ 
+SELECT DISTINCT ProjectID 
+FROM PROJECT 
+WHERE Department = 'Accounting';
+
 /* *** SQL-Query-CH03-43 *** */ 
 SELECT DISTINCT EmployeeNumber 
 FROM ASSIGNMENT 
