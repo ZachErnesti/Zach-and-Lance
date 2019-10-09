@@ -1,5 +1,9 @@
 
-
+/* *** SQL-Query-CH03-37 *** */ 
+SELECT Department, Count(*) AS NumberOfEmployees 
+FROM EMPLOYEE 
+GROUP BY Department 
+HAVING COUNT(*) > 1;
 
 /* *** SQL-Query-CH03-38 *** */ 
 SELECT Department, Count(*) AS NumberOfEmployees 
