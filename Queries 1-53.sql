@@ -105,7 +105,14 @@ WHERE    ProjectName LIKE '2017 Q_ Portfolio Analysis';
 /* *** SQL-Query-CH03-22 *** */
 SELECT    *
 FROM      EMPLOYEE
-WHERE     OfficePhone LIKE '360-287-88    '
+WHERE     OfficePhone LIKE '360-287-88___';
+
+/* *** SQL-Query-CH03-23 *** */
+SELECT    *
+FROM      EMPLOYEE
+WHERE     OfficePhone LIKE '360-287-88%';
+
+
 
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
