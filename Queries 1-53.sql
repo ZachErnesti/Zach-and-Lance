@@ -23,6 +23,13 @@ FROM      PROJECT;
 SELECT   DISTINCT Department
 FROM     PROJECT;
 
+/* *** SQL-Query-CH03-07 *** */
+SELECT    *
+FROM      PROJECT
+WHERE     Department = 'Finance';
+
+
+
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
 FROM PROJECT;
