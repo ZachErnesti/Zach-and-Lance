@@ -28,7 +28,10 @@ SELECT    *
 FROM      PROJECT
 WHERE     Department = 'Finance';
 
-
+/* *** SQL-Query-CH03-08 *** */
+SELECT   *
+FROM     PROJECT
+WHERE    StartDate = '05/10/2017';
 
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
