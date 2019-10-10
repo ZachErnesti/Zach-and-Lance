@@ -11,6 +11,14 @@ FROM      PROJECT;
 SELECT   ProjectName, Department, MaxHours
 FROM      PROJECT;
 
+/* *** SQL-Query-CH03-04 *** */
+SELECT    ProjectName, MaxHours, Department
+FROM      PROJECT;
+
+/* *** SQL-Query-CH03-05 *** */
+SELECT   Department
+FROM      PROJECT;
+
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
 FROM PROJECT;
