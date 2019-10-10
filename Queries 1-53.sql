@@ -69,6 +69,14 @@ SELECT   FirstName, LastName, Department, OfficePhone
 FROM     EMPLOYEE
 WHERE    Department = 'Accounting'
     OR      OfficePhone = '360-285-8410'; 
+    
+/* *** SQL-Query-CH03-16 *** */
+SELECT      FirstName, LastName, Department, OfficePhone
+FROM        EMPLOYEE
+WHERE       Department = 'Accounting'
+  AND NOT   OfficePhone = '360-285-8430';
+  
+
 
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
