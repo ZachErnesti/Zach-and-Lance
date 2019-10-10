@@ -58,6 +58,12 @@ SELECT     FirstName, LastName, Department, OfficePhone
 FROM       EMPLOYEE
 ORDER BY   Department DESC, LastName ASC;
 
+/* *** SQL-Query-CH03-14 *** */
+SELECT   FirstName, LastName, Department, OfficePhone
+FROM     EMPLOYEE
+WHERE    Department = 'Accounting'
+   AND   OfficePhone = '360-285-8430';
+
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
 FROM PROJECT;
