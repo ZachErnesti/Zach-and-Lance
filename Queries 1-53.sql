@@ -117,7 +117,10 @@ SELECT    *
 FROM      EMPLOYEE
 WHERE     Department LIKE '%ing';
 
-
+/* *** SQL-Query-CH03-25 *** */
+SELECT    *
+FROM      EMPLOYEE
+WHERE     Department NOT LIKE '%ing';
 
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
