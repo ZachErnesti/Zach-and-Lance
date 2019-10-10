@@ -33,6 +33,11 @@ SELECT   *
 FROM     PROJECT
 WHERE    StartDate = '05/10/2017';
 
+/* *** SQL-Query-CH03-09 *** */
+SELECT   *
+FROM     PROJECT
+WHERE    MaxHours > 135;
+
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
 FROM PROJECT;
