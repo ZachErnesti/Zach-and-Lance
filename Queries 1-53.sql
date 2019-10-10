@@ -43,6 +43,11 @@ SELECT   FirstName, LastName, Department, OfficePhone
 FROM     EMPLOYEE
 WHERE    Department = 'Accounting';
 
+/* *** SQL-Query-CH03-11 *** */
+SELECT     FirstName, LastName, Department, OfficePhone
+FROM       EMPLOYEE
+ORDER BY   Department;
+
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
 FROM PROJECT;
