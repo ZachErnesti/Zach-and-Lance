@@ -122,6 +122,11 @@ SELECT    *
 FROM      EMPLOYEE
 WHERE     Department NOT LIKE '%ing';
 
+/* *** SQL-Query-CH03-26 *** */
+SELECT    FirstName, LastName, Department, OfficePhone
+FROM      EMPLOYEE
+WHERE     OfficePhone IS NULL;
+
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
 FROM PROJECT;
