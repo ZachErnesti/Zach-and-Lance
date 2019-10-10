@@ -53,6 +53,11 @@ SELECT     FirstName, LastName, Department, OfficePhone
 FROM       EMPLOYEE
 ORDER BY   Department DESC;
 
+/* *** SQL-Query-CH03-13 *** */
+SELECT     FirstName, LastName, Department, OfficePhone
+FROM       EMPLOYEE
+ORDER BY   Department DESC, LastName ASC;
+
 /* *** SQL-Query-CH03-33 *** */ 
 SELECT ProjectName, COUNT(*) 
 FROM PROJECT;
