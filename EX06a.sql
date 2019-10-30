@@ -17,3 +17,11 @@ FROM DEPARTMENT
 ORDER BY EmployeeNumber
 )
 );
+
+
+SELECT HoursWorked, EmployeeNumber
+FROM ASSIGNMENT
+WHERE HoursWorked >
+ (SELECT AVG(HoursWorked)
+ FROM ASSIGNMENT)
+ORDER BY HoursWorked
