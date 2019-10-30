@@ -1,3 +1,4 @@
+/* Query- by Zach and Lance and Double Not Exists*/
 SELECT DISTINCT EmployeeNumber
 FROM EMPLOYEE
 WHERE NOT EXISTS (
@@ -10,7 +11,7 @@ ORDER BY EmployeeNumber
 )
 );
 
-
+/* Query- by Zach and Lance and Aggregate Function */
 SELECT HoursWorked, EmployeeNumber
 FROM ASSIGNMENT
 WHERE HoursWorked >
