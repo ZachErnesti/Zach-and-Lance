@@ -1,11 +1,3 @@
-SELECT EmployeeNumber, FirstName, LastName
-FROM EMPLOYEE
-WHERE EmployeeNumber NOT IN
- (SELECT DISTINCT EmployeeNumber
- FROM ASSIGNMENT)
-ORDER BY EmployeeNumber
-
-
 SELECT DISTINCT EmployeeNumber
 FROM EMPLOYEE
 WHERE NOT EXISTS (
